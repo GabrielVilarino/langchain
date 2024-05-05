@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "curso_lang"
+version = "0.1.0"
+description = ""
+authors = ["Gabriel Vilarino <gabriel_vilarino@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.25.1"
+langchain = "^0.1.17"
+langchain-community = "^0.0.36"
+langchain-openai = "^0.1.6"
+ollama = "^0.1.9"
+beautifulsoup4 = "^4.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
